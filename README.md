@@ -31,7 +31,7 @@
 
 ---
 
-### 📂 Projetos em Destaque
+### 📂 Projetos Acadêmico em Destaque
 
 * **💧 [InfraPlus](https://github.com/richaferreira/Projeto_Infraplus_V1)** - Plataforma Full Stack para gestão de problemas hídricos. Desenvolvido com **Python/Flask**, focando em impacto social e organização de dados.
 * **⚔️ RPG System** - Aplicação de conceitos avançados de **POO (Programação Orientada a Objetos)** e lógica de jogos via terminal.
