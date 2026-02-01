@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header&text=Richardson%20Ferreira&fontSize=50&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=150&section=header&text=Richardson%20Ferreira&fontSize=70&animation=fadeIn&fontColor=87CEEB&fontAlignY=35"/>
 
 <p align="center">
   <a href="https://github.com/richaferreira">
