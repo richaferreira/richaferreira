@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/richaferreira">
-    <img src="https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=30&center=true&vCenter=true&width=1000&lines=Acadêmico+em+Engenharia+de+Software.;Desenvolvedor+em+Formação.;Especialista+em+Infra+e+Redes" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=30&center=true&vCenter=true&width=1000&lines=Acadêmico+em+Engenharia+de+Software.;Desenvolvedor+em+Formação.;" alt="Typing SVG" />
   </a>
 </p>
 
