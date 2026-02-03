@@ -81,12 +81,11 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&ring=00bfbf&fire=00bfbf&stroke=00bfbf&hide_border=true" />
 </p>
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/wakatime?username=richaferreira&theme=tokyonight&layout=compact&title_color=00bfbf&hide_border=true" />
-</p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=richaferreira&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
+
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&langs_count=7&theme=dracula" />
 </p>
 
 ---
@@ -109,5 +108,10 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/richaferreira/richaferreira/output/github-contribution-grid-snake.svg" alt="snake" />
 </div>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=richaferreiraS&color=dc143c&style=flat-square&label=Visualizações" alt="Visualizações">
+</p>
+
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer&reversal=true"/>
