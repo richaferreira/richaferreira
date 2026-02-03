@@ -58,16 +58,11 @@
   <img src="https://img.shields.io/badge/Cisco-110A24?style=for-the-badge&logo=cisco&logoColor=white" />
 </p>
 
----
 ### 📂 Projetos Acadêmico em Destaque
 
 * **💧 [InfraPlus](https://github.com/richaferreira/Projeto_Infraplus_V1)** - Plataforma Full Stack para gestão de problemas hídricos. Desenvolvido com **Python/Flask**, focando em impacto social e organização de dados.
 * **⚔️ RPG System** - Aplicação de conceitos avançados de **POO (Programação Orientada a Objetos)** e lógica de jogos via terminal.
 * **🌐 Network Lab** - Simulações complexas de topologias de rede e serviços DHCP/VLAN no **Cisco Packet Tracer**.
-
----
-
----
 
 ### 📊 Estatísticas e Atividade
 <div align="center">
@@ -79,8 +74,6 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&ring=00bfbf&fire=00bfbf&stroke=00bfbf&hide_border=true" alt="GitHub Streak" />
 </p>
-
----
 
 ---
 
