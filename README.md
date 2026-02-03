@@ -64,36 +64,33 @@
 * **⚔️ RPG System** - Aplicação de conceitos avançados de **POO (Programação Orientada a Objetos)** e lógica de jogos via terminal.
 * **🌐 Network Lab** - Simulações complexas de topologias de rede e serviços DHCP/VLAN no **Cisco Packet Tracer**.
 
+---
+
 ### 📊 Estatísticas e Atividade
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=tokyonight&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&hide_border=true" alt="Estatísticas do GitHub" />
-  
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&theme=tokyonight&title_color=00bfbf&text_color=c9d1d9&hide_border=true&langs_count=6" alt="Linguagens mais usadas" />
-</div>
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=tokyonight&title_color=00bfbf&icon_color=00bfbf&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&theme=tokyonight&title_color=00bfbf&hide_border=true" />
+</p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&ring=00bfbf&fire=00bfbf&stroke=00bfbf&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&fire=00bfbf&ring=00bfbf&sideNums=00bfbf&stroke=00bfbf&hide_border=true" />
 </p>
 
 ---
 
 ### 📫 Vamos conectar?
-<div align="center">  
+<p align="center">
   <a href="https://www.linkedin.com/in/richardson-ferreira-464571264" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://www.instagram.com/richaferreira" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
   <a href="mailto:richardsonferreira1995@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-</div>
+</p>
 
-<br>
-
-<div align="center">
-  <img src="https://github-readme-snake.herokuapp.com/github-contribution-grid-snake.svg?palette=github-dark&color_snake=%2300bfbf&color_dots=%23161b22%2C%230e4429%2C%23006d32%2C%2326a641%2C%2339d353" alt="snake" />
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/richaferreira/richaferreira/output/github-contribution-grid-snake.svg" alt="snake" />
+</p>
