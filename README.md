@@ -67,15 +67,20 @@
 
 ---
 
+---
+
 ### 📊 Estatísticas e Atividade
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&locale=pt-br&bg_color=0d1117&title_color=00bfbf&text_color=c9d1d9&icon_color=00bfbf&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&bg_color=0d1117&title_color=00bfbf&text_color=c9d1d9&hide_border=true&langs_count=6" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=tokyonight&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&hide_border=true" alt="Estatísticas do GitHub" />
+  
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&theme=tokyonight&title_color=00bfbf&text_color=c9d1d9&hide_border=true&langs_count=6" alt="Linguagens mais usadas" />
 </div>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&ring=00bfbf&fire=00bfbf&stroke=00bfbf&hide_border=true" alt="GitHub Streak" />
 </p>
+
+---
 
 ---
 
