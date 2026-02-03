@@ -1,12 +1,12 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=150&section=header&text=Richardson%20Ferreira&fontSize=70&animation=fadeIn&fontColor=87CEEB&fontAlignY=35"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=150&section=header&text=Richardson%20Ferreira&fontSize=70&animation=fadeIn&fontColor=ffffff&fontAlignY=35"/>
 
 <p align="center">
   <a href="https://github.com/richaferreira">
-    <img src="https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=30&center=true&vCenter=true&width=1000&lines=Acadêmico+em+Engenharia+de+Software.;Desenvolvedor+em+Formação.;" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=30&center=true&vCenter=true&width=1000&lines=Acadêmico+em+Engenharia+de+Software.;Desenvolvedor+em+Formação.;Especialista+em+Infra+e+Redes" alt="Typing SVG" />
   </a>
 </p>
 
-<p align="center">
+---
 
 ### 🚀 Minha Jornada de Evolução
 > **Em constante processo de compilação.**
@@ -19,8 +19,6 @@
   <img src="https://img.shields.io/badge/Status-Aprendendo-00bfbf?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/Evoluindo-Diariamente-white?style=for-the-badge&logoColor=00bfbf" />
 </div>
-
-</p>
 
 ---
 
@@ -58,21 +56,37 @@
   <img src="https://img.shields.io/badge/Cisco-110A24?style=for-the-badge&logo=cisco&logoColor=white" />
 </p>
 
-### 📂 Projetos Acadêmico em Destaque
+---
 
-* **💧 [InfraPlus](https://github.com/richaferreira/Projeto_Infraplus_V1)** - Plataforma Full Stack para gestão de problemas hídricos. Desenvolvido com **Python/Flask**, focando em impacto social e organização de dados.
-* **⚔️ RPG System** - Aplicação de conceitos avançados de **POO (Programação Orientada a Objetos)** e lógica de jogos via terminal.
-* **🌐 Network Lab** - Simulações complexas de topologias de rede e serviços DHCP/VLAN no **Cisco Packet Tracer**.
+### 📂 Projetos em Destaque
 
-### 📊 Estatísticas e Atividade
+* **💧 [InfraPlus](https://github.com/richaferreira/Projeto_Infraplus_V1)** - Plataforma Full Stack para gestão de problemas hídricos (Python/Flask).
+* **⚔️ RPG System** - Sistema de combate via terminal explorando conceitos de POO.
+* **🌐 Network Lab** - Simulações de topologias de rede e serviços DHCP/VLAN (Cisco Packet Tracer).
+
+---
+
+### 📊 Performance & Conquistas
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=richaferreira&theme=tokyonight&no-bg=true&margin-w=15&column=4" alt="Troféus do GitHub" />
+</p>
+
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=tokyonight&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&hide_border=true" alt="Estatísticas do GitHub" />
-  
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&theme=tokyonight&title_color=00bfbf&text_color=c9d1d9&hide_border=true&langs_count=6" alt="Linguagens mais usadas" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=tokyonight&title_color=00bfbf&icon_color=00bfbf&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&theme=tokyonight&title_color=00bfbf&hide_border=true" />
 </div>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&ring=00bfbf&fire=00bfbf&stroke=00bfbf&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&ring=00bfbf&fire=00bfbf&stroke=00bfbf&hide_border=true" />
+</p>
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/wakatime?username=richaferreira&theme=tokyonight&layout=compact&title_color=00bfbf&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=richaferreira&theme=tokyonight" />
 </p>
 
 ---
@@ -96,4 +110,4 @@
   <img src="https://github-readme-snake.herokuapp.com/github-contribution-grid-snake.svg?palette=github-dark&color_snake=%2300bfbf&color_dots=%23161b22%2C%230e4429%2C%23006d32%2C%2326a641%2C%2339d353" alt="snake" />
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer&reversal=true"/>
