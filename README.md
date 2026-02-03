@@ -107,7 +107,7 @@
 <br>
 
 <div align="center">
-  <img src="https://github-readme-snake.herokuapp.com/github-contribution-grid-snake.svg?palette=github-dark&color_snake=%2300bfbf&color_dots=%23161b22%2C%230e4429%2C%23006d32%2C%2326a641%2C%2339d353" alt="snake" />
+  <img src="https://raw.githubusercontent.com/richaferreira/richaferreira/output/github-contribution-grid-snake.svg" alt="snake" />
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer&reversal=true"/>
