@@ -68,9 +68,7 @@
 
 ### 📊 Performance & Conquistas
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=richaferreira&theme=tokyonight&no-bg=true&margin-w=15&column=4" alt="Troféus do GitHub" />
-</p>
+
 
 <div align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=tokyonight&title_color=00bfbf&icon_color=00bfbf&hide_border=true" />
@@ -86,6 +84,10 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
 
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&langs_count=7&theme=dracula" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-achievements-badge.vercel.app/?username=richaferreira&theme=dracula&compact=true" alt="Meus Achievements" />
 </p>
 
 ---
