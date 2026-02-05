@@ -68,6 +68,10 @@
 
 ### 📊 Performance & Conquistas
 
+<br>
+
+
+
 
 
 <div align="center">
@@ -100,7 +104,7 @@
 
 
 <br>
----
+
 
 ### 📫 Vamos conectar?
 <div align="center">  
