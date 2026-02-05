@@ -90,6 +90,16 @@
   <img src="https://github-profile-achievements-badge.vercel.app/?username=richaferreira&theme=dracula&compact=true" alt="Meus Achievements" />
 </p>
 
+
+
+
+
+
+
+
+
+
+<br>
 ---
 
 ### 📫 Vamos conectar?
