@@ -66,27 +66,16 @@
 
 ---
 
-### 📊 Performance & Conquistas
+<h2 align="left">📊 Performance & Conquistas</h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=richaferreira&theme=tokyonight&no-bg=true&margin-w=15&column=4" alt="Troféus do GitHub" />
-</p>
-
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=tokyonight&title_color=00bfbf&icon_color=00bfbf&hide_border=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&theme=tokyonight&title_color=00bfbf&hide_border=true" />
-</div>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&ring=00bfbf&fire=00bfbf&stroke=00bfbf&hide_border=true" />
+  <img src="https://github-profile-achievements-badge.vercel.app/?username=richaferreira&theme=dracula&compact=true" alt="Meus Achievements" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/wakatime?username=richaferreira&theme=tokyonight&layout=compact&title_color=00bfbf&hide_border=true" />
-</p>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=richaferreira&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&langs_count=7&theme=dracula" alt="Top Langs" />
 </p>
 
 ---
