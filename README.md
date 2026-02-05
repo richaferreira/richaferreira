@@ -26,7 +26,7 @@
 - 🎓 Graduando em **Engenharia de Software**.
 - 🛠️ Background sólido em **Infraestrutura de TI e Redes**, unindo o mundo do hardware ao desenvolvimento de software.
 - 💡 Buscando oportunidades para contribuir em projetos desafiadores como **Dev Junior ou Estagiário**.
-- 📍 Baseado em Saquarema, RJ.
+- 📍 Baseado em Saquarema-RJ.
 
 ---
 
@@ -106,3 +106,4 @@
 
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer&reversal=true"/>
+
