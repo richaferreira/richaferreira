@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richardson Ferreira | Eng Em Formação </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        :root {
+            --primary: #3b82f6;
+            --secondary: #06b6d4;
+            --accent: #f59e0b;
+            --success: #10b981;
+            --dark-bg: #0f172a;
+            --card-bg: #1e293b;
+            --border-color: #334155;
+            --text-primary: #e2e8f0;
+            --text-secondary: #cbd5e1;
+        }
+
+        /* Animações */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        /* Header */
+        header {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 1rem 0;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            letter-spacing: -1px;
+        }
+
+        .logo-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--secondary);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero */
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            color: var(--text-primary);
+        }
+
+        .hero-content h1 .highlight {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid;
+            cursor: pointer;
+            font-size: 1rem;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            border-color: var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(59, 130, 246, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .stat {
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .stat:hover {
+            border-color: var(--primary);
+            background: rgba(59, 130, 246, 0.05);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Hero Image */
+        .hero-image {
+            position: relative;
+            animation: slideInRight 0.8s ease-out;
+        }
+
+        .profile-card {
+            background: rgba(30, 41, 59, 0.8);
+            border: 2px solid var(--border-color);
+            border-radius: 1rem;
+            padding: 2rem;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+
+        .profile-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 1.5rem;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+            font-weight: 800;
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-title {
+            color: var(--secondary);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .profile-tags {
+            display: flex;
+            gap: 0.8rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--primary);
+            padding: 0.4rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid var(--primary);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Seções */
+        section {
+            padding: 5rem 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 3rem;
+            color: var(--text-primary);
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        section h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 2px;
+        }
+
+        /* Sobre */
+        .about {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.5) 0%, rgba(30, 41, 59, 0.5) 100%);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: start;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+            color: var(--text-secondary);
+            line-height: 1.9;
+            font-size: 1rem;
+        }
+
+        .about-text strong {
+            color: var(--primary);
+        }
+
+        .about-highlights {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
+        .highlight {
+            background: rgba(30, 41, 59, 0.8);
+            border-left: 4px solid var(--primary);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .highlight:hover {
+            border-left-color: var(--secondary);
+            transform: translateX(10px);
+            background: rgba(30, 41, 59, 1);
+        }
+
+        .highlight h4 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .highlight p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        /* Experiência */
+        .experience {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(30, 41, 59, 0.8) 100%);
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        .job {
+            background: rgba(30, 41, 59, 0.6);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--primary);
+            padding: 2rem;
+            border-radius: 0.5rem;
+            transition: all 0.3s;
+            animation: fadeInUp 0.6s ease-out;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .job::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .job:hover {
+            border-color: var(--primary);
+            border-left-color: var(--secondary);
+            background: rgba(30, 41, 59, 0.8);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.1);
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+
+        .job-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .job-company {
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .job-period {
+            color: var(--accent);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .job-description {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .job-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .job-highlight {
+            background: rgba(59, 130, 246, 0.05);
+            padding: 0.8rem 1rem;
+            border-radius: 0.4rem;
+            border-left: 3px solid var(--primary);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            transition: all 0.3s;
+        }
+
+        .job-highlight:hover {
+            background: rgba(59, 130, 246, 0.15);
+            border-left-color: var(--secondary);
+            transform: translateX(5px);
+        }
+
+        /* Educação e Projetos */
+        .education, .projects {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.5) 0%, rgba(30, 41, 59, 0.5) 100%);
+        }
+
+        .education-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .education-card {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid var(--border-color);
+            padding: 2rem;
+            border-radius: 0.5rem;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .education-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+        }
+
+        .education-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(59, 130, 246, 0.15);
+        }
+
+        .education-card h3 {
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        .education-card p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .education-status {
+            color: var(--success);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+
+        /* Habilidades */
+        .skills {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(30, 41, 59, 0.8) 100%);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-category {
+            background: rgba(30, 41, 59, 0.6);
+            border: 1px solid var(--border-color);
+            padding: 2rem;
+            border-radius: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .skill-category:hover {
+            border-color: var(--primary);
+            background: rgba(30, 41, 59, 0.8);
+            transform: translateY(-5px);
+        }
+
+        .skill-category h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .skill {
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--primary);
+            padding: 0.6rem 1.2rem;
+            border-radius: 0.4rem;
+            font-size: 0.9rem;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s;
+            cursor: default;
+        }
+
+        .skill:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* Contato */
+        .contact {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%);
+            text-align: center;
+        }
+
+        .contact p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            background: rgba(30, 41, 59, 0.8);
+            color: var(--primary);
+            padding: 0.8rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid var(--border-color);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .contact-btn:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(15, 23, 42, 0.95);
+            border-top: 1px solid var(--border-color);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding: 3rem 2rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-buttons {
+                flex-direction: column;
+            }
+
+            .contact-btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            section h2 {
+                font-size: 2rem;
+            }
+
+            .job-header {
+                flex-direction: column;
+            }
+
+            .job-highlights {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                RF<span class="logo-dot"></span>
+            </a>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Olá, sou <span class="highlight">Richardson Ferreira</span></h1>
+            <p>Estudante de Engenharia de Software em transição de carreira, unindo a paixão por Tecnologia e código (Python, JS, C#), com uma sólida bagagem de 7+ anos em infraestrutura técnica e atendimento ao cliente. Minha experiência lidando diretamente com o público me ensinou a entender as dores dos usuários e a entregar soluções claras. Busco minha primeira oportunidade de estágio para colaborar em equipe e gerar impacto positivo através da tecnologia.</p>
+            
+            <div class="hero-cta">
+                <a href="#contato" class="btn btn-primary">Entrar em Contato</a>
+                <a href="https://github.com/richaferreira" class="btn btn-secondary">Ver Projetos</a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <div class="profile-card">
+                <div class="profile-image">
+                    <img src="https://github.com/richaferreira.png" alt="Richardson Ferreira" onerror="this.style.display='none'">
+                </div>
+                <div class="profile-name">Richardson Ferreira</div>
+
+                <div class="profile-tags">
+                    <span class="tag">Engenharia</span>
+                    <span class="tag">FTTH</span>
+                    <span class="tag">Redes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Sou um profissional apaixonado por <strong>tecnologia e inovação</strong>, atualmente cursando <strong>Engenharia de Software</strong> na Universidade de Vassouras. Minha trajetória profissional combina experiência técnica sólida com habilidades interpessoais desenvolvidas em ambientes dinâmicos.</p>
+                    
+                    <p>Especializado em <strong>infraestrutura de redes FTTH</strong> e <strong>diagnóstico de problemas TCP/IP</strong>, tenho experiência prática em configuração de ativos de rede, instalação de fibra óptica e garantia de SLA de conectividade. Atualmente trabalho como <strong>Recepcionista Hospitalar</strong> na Unimed Araruama, onde aplico habilidades de gestão de sistemas e atendimento ao cliente.</p>
+                    
+                    <p>Estou em busca de meu primeiro estágio para aplicar conhecimentos técnicos em projetos reais, contribuir com soluções inovadoras e crescer profissionalmente em um ambiente colaborativo e desafiador.</p>
+                </div>
+
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <h4>🌐 Infraestrutura & Redes</h4>
+                        <p>TCP/IP, FTTH, fibra óptica, configuração de ativos, diagnóstico de falhas, garantia de SLA</p>
+                    </div>
+                    <div class="highlight">
+                        <h4>💻 Hardware & Sistemas</h4>
+                        <p>Montagem e manutenção de computadores, notebooks, diagnóstico</p>
+                    </div>
+                    <div class="highlight">
+                        <h4>⚙️ Desenvolvimento</h4>
+                        <p>HTML, CSS, JavaScript, Python, GitHub</p>
+                    </div>
+                    <div class="highlight">
+                        <h4>⚡Eletricista Residencial</h4>
+                        <p>Instalação, Manutenção</p>
+                    </div>
+                    <div class="highlight">
+                        <h4>🤝 Soft Skills</h4>
+                        <p>Atendimento ao cliente, trabalho em equipe, resolução de problemas, comunicação clara</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <h2>Experiência Profissional</h2>
+            <div class="experience-grid">
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Recepcionista Hospitalar</div>
+                            <div class="job-company">Unimed Araruama</div>
+                        </div>
+                        <div class="job-period">Set 2024 – Atual</div>
+                    </div>
+                    <div class="job-description"> Atuo como o primeiro ponto de contato no ambiente de saúde, sendo responsável pelo atendimento humanizado, cadastro em sistema, gerenciamento de fluxo na recepção e orientação clara aos pacientes.</div>
+                    <div class="job-highlights">
+                        <div class="job-highlight">▸ Primeiro ponto de contato e acolhimento no ambiente de saúde, com foco em atendimento humanizado.</div>
+                        <div class="job-highlight">▸ Admissão e cadastro de pacientes em sistemas específicos</div>
+                        <div class="job-highlight">▸ Solicitação de autorizações junto às operadoras de saúde</div>
+                        <div class="job-highlight">▸ Gerenciamento de fluxo e orientação de pacientes</div>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Ajudante de Caminhão</div>
+                            <div class="job-company">Vidraçaria Elace</div>
+                        </div>
+                        <div class="job-period">Abr 2022 – Jan 2023</div>
+                    </div>
+                    <div class="job-description">Suporte logístico e operacional em atividades de transporte e entrega. Trabalho em equipe e responsabilidade com prazos.</div>
+                    <div class="job-highlights">
+                        <div class="job-highlight">▸ Suporte logístico em entregas</div>
+                        <div class="job-highlight">▸ Operações de carga e descarga</div>
+                        <div class="job-highlight">▸ Trabalho em equipe e responsabilidade com prazos</div>
+                        <div class="job-highlight">▸ Manipulação segura de produtos frágeis</div>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Técnico de Redes / FTTH</div>
+                            <div class="job-company">Linko</div>
+                        </div>
+                        <div class="job-period">Mar 2023 – Set 2024</div>
+                    </div>
+                    <div class="job-description">Diagnóstico de falhas lógicas em redes TCP/IP e infraestrutura de fibra óptica. Configuração de ativos de rede e expansão de infraestrutura crítica, garantindo SLA de conectividade.</div>
+                    <div class="job-highlights">
+                        <div class="job-highlight">▸ Diagnóstico e resolução de falhas em redes TCP/IP</div>
+                        <div class="job-highlight">▸ Instalação e configuração de infraestrutura FTTH</div>
+                        <div class="job-highlight">▸ Configuração de ativos de rede</div>
+                        <div class="job-highlight">▸ Garantia de conectividade e expansão de infraestrutura crítica</div>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Técnico de Redes / FTTH</div>
+                            <div class="job-company">Ok Virtual</div>
+                        </div>
+                        <div class="job-period">Ago 2020 – Nov 2021</div>
+                    </div>
+                    <div class="job-description">Diagnóstico de falhas lógicas em redes TCP/IP e infraestrutura de fibra óptica. Configuração de ativos de rede e expansão de infraestrutura crítica.</div>
+                    <div class="job-highlights">
+                        <div class="job-highlight">▸ Diagnóstico de falhas em redes TCP/IP</div>
+                        <div class="job-highlight">▸ Configuração de infraestrutura FTTH</div>
+                        <div class="job-highlight">▸ Manutenção de ativos de rede</div>
+                        <div class="job-highlight">▸ Suporte técnico a clientes</div>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Operador de Loja</div>
+                            <div class="job-company">Casa&Vídeo</div>
+                        </div>
+                        <div class="job-period">Out 2018 – Fev 2020</div>
+                    </div>
+                    <div class="job-description">Atendimento ao cliente com foco em resolução de problemas e operações logísticas de estoque. Colaboração em equipe para atingimento de metas e organização de processos de vendas.</div>
+                    <div class="job-highlights">
+                        <div class="job-highlight">▸ Atendimento ao cliente com excelência</div>
+                        <div class="job-highlight">▸ Resolução de problemas e reclamações</div>
+                        <div class="job-highlight">▸ Gestão de estoque e logística</div>
+                        <div class="job-highlight">▸ Atingimento de metas de vendas</div>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Operador de Loja</div>
+                            <div class="job-company">Casa&Vídeo</div>
+                        </div>
+                        <div class="job-period">Abr 2017 – Jan 2018</div>
+                    </div>
+                    <div class="job-description">Atendimento ao cliente com foco em resolução de problemas e operações logísticas de estoque. Colaboração em equipe para atingimento de metas e organização de processos de vendas.</div>
+                    <div class="job-highlights">
+                        <div class="job-highlight">▸ Atendimento ao cliente com excelência</div>
+                        <div class="job-highlight">▸ Resolução de problemas e reclamações</div>
+                        <div class="job-highlight">▸ Gestão de estoque e logística</div>
+                        <div class="job-highlight">▸ Atingimento de metas de vendas</div>
+                    </div>
+                </div>
+               
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Caixa e Atendimento</div>
+                            <div class="job-company">Papelaria Mattos</div>
+                        </div>
+                        <div class="job-period">Abril 2014 – Jan 2017</div>
+                    </div>
+                    <div class="job-description">Responsabilidade financeira no fechamento de caixa e conferência rigorosa de inventário. Atendimento direto ao público, desenvolvendo comunicação clara e objetiva.</div>
+                    <div class="job-highlights">
+                        <div class="job-highlight">▸ Fechamento de caixa com precisão financeira</div>
+                        <div class="job-highlight">▸ Conferência e controle de inventário</div>
+                        <div class="job-highlight">▸ Atendimento direto ao público</div>
+                        <div class="job-highlight">▸ Responsabilidade com valores</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="educacao" class="education">
+        <div class="container">
+            <h2>Formação & Certificações</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>Engenharia de Software</h3>
+                    <p><strong>Universidade de Vassouras (UV)</strong></p>
+                    <p>Curso de graduação com foco em desenvolvimento de software, arquitetura de sistemas e engenharia de processos.</p>
+                    <div class="education-status">📚 Em Andamento</div>
+                </div>
+
+                <div class="education-card">
+                    <h3>Técnico em FTTH</h3>
+                    <p><strong>Fibra Óptica</strong></p>
+                    <p>Certificação técnica em infraestrutura de fibra óptica, instalação, manutenção e diagnóstico de falhas.</p>
+                    <div class="education-status">✓ Certificado</div>
+                </div>
+
+                <div class="education-card">
+                    <h3>Montagem & Manutenção</h3>
+                    <p><strong>Computadores e Notebooks</strong></p>
+                    <p>Certificação em montagem, diagnóstico e manutenção de computadores pessoais e notebooks.</p>
+                    <div class="education-status">✓ Certificado</div>
+                </div>
+
+                <div class="education-card">
+                    <h3>Eletricista Residencial</h3>
+                    <p><strong>Instalações Elétricas</strong></p>
+                    <p>Certificação em instalações elétricas residenciais, segurança e normas técnicas.</p>
+                    <div class="education-status">✓ Certificado</div>
+                </div>
+            </div>
+        </div>
+    </section>
+            
+    <section id="projetos" class="projects">
+        <div class="container">
+            <h2>Projetos em Destaque</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>💧 InfraPlus</h3>
+                    <p><strong>Plataforma Web (Full Stack)</strong></p>
+                    <p>Plataforma de utilidade pública para monitoramento e denúncia de problemas hídricos. Projeto acadêmico desenvolvido na Universidade de Vassouras com foco em impacto social e soluções sustentáveis.</p>
+                    <a href="https://github.com/richaferreira/Projeto_Infraplus_V1" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600; margin-top: 0.5rem; display: inline-block;">Ver Repositório ↗</a>
+                    <div class="education-status">🚀 Em Desenvolvimento</div>
+                </div>
+
+                <div class="education-card">
+                    <h3>💻 Portfólio Pessoal</h3>
+                    <p><strong>HTML, CSS & GitHub Pages</strong></p>
+                    <p>Desenvolvimento, estruturação e deploy deste site profissional para apresentar minha trajetória, repositórios e habilidades práticas na área de tecnologia.</p>
+                    <div class="education-status">✓ Concluído</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2>GitHub Achievements</h2>
+            <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+                
+                <div style="text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" alt="Achievement 1" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--primary); background: #1e293b; object-fit: cover;">
+                </div>
+
+                <div style="text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" alt="Pull Shark" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--primary); background: #1e293b; object-fit: cover;">
+                </div>
+
+                <div style="text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" alt="YOLO" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--primary); background: #1e293b; object-fit: cover;">
+                </div>
+
+                <div style="text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" alt="Achievement 4" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--primary); background: #1e293b; object-fit: cover;">
+                </div>
+
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>🌐 Infraestrutura & Redes</h3>
+                    <div class="skill-list">
+                        <span class="skill">TCP/IP</span>
+                        <span class="skill">FTTH</span>
+                        <span class="skill">Fibra Óptica</span>
+                        <span class="skill">Redes de Dados</span>
+                        <span class="skill">Switches</span>
+                        <span class="skill">Roteadores</span>
+                        <span class="skill">VLANs</span>
+                        <span class="skill">QoS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>💻 Hardware & Sistemas</h3>
+                    <div class="skill-list">
+                        <span class="skill">Montagem de PCs</span>
+                        <span class="skill">Notebooks</span>
+                        <span class="skill">Diagnóstico</span>
+                        <span class="skill">Manutenção</span>
+                        <span class="skill">Troubleshooting</span>
+                    </div>
+                 </div>
+
+                 <div class="skill-category">
+                    <h3>⚡Eletricista Residencial</h3>
+                    <div class="skill-list">                    
+                        <span class="skill">Manutenção</span>
+                        <span class="skill">Instalações Elétricas</span>
+                        
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>⚙️ Desenvolvimento & Ferramentas</h3>
+                    <div class="skill-list">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Python</span>
+                        <span class="skill">VS Code</span>
+                        <span class="skill">GitHub</span>
+                        <span class="skill"></span>
+                        <span class="skill"></span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>🤝 Soft Skills & Idiomas</h3>
+                    <div class="skill-list">
+                        <span class="skill">Atendimento ao Cliente</span>
+                        <span class="skill">Trabalho em Equipe</span>
+                        <span class="skill">Resolução de Problemas</span>
+                        <span class="skill">Comunicação</span>
+                        <span class="skill">Português</span>
+                        <span class="skill">Inglês Básico</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Vamos Trabalhar Juntos?</h2>
+            <p>Estou aberto a oportunidades de estágio, projetos e colaborações. Vamos criar algo incrível juntos!</p>
+            <div class="contact-buttons">
+                <a href="mailto:richardsonferreira1995@gmail.com" class="contact-btn">📧 Email</a>
+                <a href="https://github.com/richaferreira" class="contact-btn">💻 GitHub</a>
+                <a href="https://www.linkedin.com/in/richardson-ferreira-464571264" class="contact-btn">💼 LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Richardson Ferreira. Desenvolvido com dedicação, inovação e paixão por tecnologia.</p>
+    </footer>
+</body>
+</html>
