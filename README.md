@@ -27,9 +27,9 @@ No momento, foco meu aprendizado em **Python (Django)** e **JavaScript (Node.js)
 
 * **Tudo no seu lugar:** Descobrindo o poder do **Docker & Docker Compose** 🐳 para que meus projetos rodem lisinho em qualquer lugar, sem aquela bagunça de *"na minha máquina funciona"*.
 
+**"O importante não é saber tudo hoje, mas ser um pouquinho melhor do que ontem."** ✨
 ---
 
-**"O importante não é saber tudo hoje, mas ser um pouquinho melhor do que ontem."** ✨
 </div>
 
 <div align="center">
