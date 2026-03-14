@@ -92,12 +92,15 @@ Desenvolvimento, estruturação e deploy deste site profissional para apresentar
 <h2 align="left">📊 Performance & Conquistas</h2>
 
 
+---
+
 <p align="center">
   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=richaferreira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 
   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=richaferreira&layout=compact&langs_count=7&theme=dracula" alt="Top Langs" />
 </p>
 
+---
 <br>
 
 
