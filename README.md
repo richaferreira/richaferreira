@@ -9,26 +9,24 @@
 ---
 <div
 ### 🚀 Minha Jornada de Evolução
-> **🧱 Construindo minha jornada, um tijolo por vez**
-> **"A curiosidade é o que me move, o código é o que me transforma." 🌊**
->
-> Sempre tive um pé na tecnologia através da **infraestrutura e redes**🌐. Eu adorava entender como os dados viajavam, mas chegou um momento em que senti vontade de fazer mais: eu queria aprender a criar o que estava sendo transportado.
-> 
-> Hoje, estou mergulhando de cabeça na **Engenharia de Software** 🖥️. Tem sido um desafio incrível trocar os cabos pelas linhas de código, e estou adorando cada erro de sintaxe que me ensina algo novo!
->
->### 🛠️ O que tem na minha bancada de estudos:
->
->No momento, foco meu aprendizado em **Python (Django) e JavaScript (Node.js)** 🐍💛, mas o que está fazendo meus olhos brilharem é ver como tudo se conecta:
+## 🧱 Construindo minha jornada, um tijolo por vez
 
-**Organizando a casa:** Entendendo a diferença entre a estrutura do **PostgreSQL** 🐘 e a flexibilidade do **MongoDB** 🍃.
+> **"A curiosidade é o que me move, o código é o que me transforma."** 🌊
 
-**Tudo no seu lugar:** Descobrindo o poder do **Docker & Docker Compose** 🐳 para que meus projetos rodem lisinho em qualquer lugar, sem aquela bagunça de "na minha máquina funciona".
-</div>
+Sempre tive um pé na tecnologia através da **infraestrutura e redes** 🌐. Eu adorava entender como os dados viajavam, mas chegou um momento em que senti vontade de fazer mais: eu queria aprender a **criar** o que estava sendo transportado.
+
+Hoje, estou mergulhando de cabeça na **Engenharia de Software** 💻. Tem sido um desafio incrível trocar os cabos pelas linhas de código, e estou adorando cada erro de sintaxe que me ensina algo novo!
 
 ---
-<div
-🌱 **Um passo de cada vez**
-Migrar de área exige paciência, mas meu passado em redes me deu uma base sólida para entender como o software "respira" no mundo real. Não quero apenas decorar comandos, quero entender a lógica por trás de cada solução. 💡
+
+### 🛠️ O que tem na minha bancada de estudos:
+
+No momento, foco meu aprendizado em **Python (Django)** e **JavaScript (Node.js)** 🐍 💛, mas o que está fazendo meus olhos brilharem é ver como tudo se conecta:
+
+* **Organizando a casa:** Entendendo a diferença entre a estrutura do **PostgreSQL** 🐘 e a flexibilidade do **MongoDB** 🍃.
+* **Tudo no seu lugar:** Descobrindo o poder do **Docker & Docker Compose** 🐳 para que meus projetos rodem lisinho em qualquer lugar, sem aquela bagunça de *"na minha máquina funciona"*.
+
+---
 
 **"O importante não é saber tudo hoje, mas ser um pouquinho melhor do que ontem."** ✨
 </div>
