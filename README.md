@@ -88,9 +88,10 @@ Desenvolvimento, estruturação e deploy deste site profissional para apresentar
 * **🌐 Network Lab** - Simulações de topologias de rede e serviços DHCP/VLAN (Cisco Packet Tracer).
 
 <br>
----
 
 <h2 align="left">📊 Performance & Conquistas</h2>
+
+---
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=richaferreira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
