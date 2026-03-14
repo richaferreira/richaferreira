@@ -7,13 +7,31 @@
 </p>
 
 ---
-
+<div
 ### 🚀 Minha Jornada de Evolução
-> **Em constante processo de compilação.**
+> **🧱 Construindo minha jornada, um tijolo por vez**
+> **"A curiosidade é o que me move, o código é o que me transforma." 🌊**
 >
-> Sou um entusiasta de tecnologia que decidiu mergulhar fundo na **Engenharia de Software**. Com uma base sólida em infraestrutura e redes, hoje dedico meus dias a dominar o ecossistema **Python** e **JavaScript**.
+> Sempre tive um pé na tecnologia através da **infraestrutura e redes**🌐. Eu adorava entender como os dados viajavam, mas chegou um momento em que senti vontade de fazer mais: eu queria aprender a criar o que estava sendo transportado.
 > 
-> 🎯 **Foco atual:** Aperfeiçoar o desenvolvimento **Full Stack** com **Node.js** e **Django**, enquanto aplico conceitos de arquitetura de sistemas e código limpo.
+> Hoje, estou mergulhando de cabeça na **Engenharia de Software** 🖥️. Tem sido um desafio incrível trocar os cabos pelas linhas de código, e estou adorando cada erro de sintaxe que me ensina algo novo!
+>
+>### 🛠️ O que tem na minha bancada de estudos:
+>
+>No momento, foco meu aprendizado em **Python (Django) e JavaScript (Node.js)** 🐍💛, mas o que está fazendo meus olhos brilharem é ver como tudo se conecta:
+
+**Organizando a casa:** Entendendo a diferença entre a estrutura do **PostgreSQL** 🐘 e a flexibilidade do **MongoDB** 🍃.
+
+**Tudo no seu lugar:** Descobrindo o poder do **Docker & Docker Compose** 🐳 para que meus projetos rodem lisinho em qualquer lugar, sem aquela bagunça de "na minha máquina funciona".
+</div>
+
+---
+<div
+🌱 **Um passo de cada vez**
+Migrar de área exige paciência, mas meu passado em redes me deu uma base sólida para entender como o software "respira" no mundo real. Não quero apenas decorar comandos, quero entender a lógica por trás de cada solução. 💡
+
+**"O importante não é saber tudo hoje, mas ser um pouquinho melhor do que ontem."** ✨
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Aprendendo-00bfbf?style=for-the-badge&logoColor=white" />
