@@ -87,8 +87,9 @@ Desenvolvimento, estruturação e deploy deste site profissional para apresentar
 
 * **🌐 Network Lab** - Simulações de topologias de rede e serviços DHCP/VLAN (Cisco Packet Tracer).
 
-<br>
 ---
+<br>
+
 <h2 align="left">📊 Performance & Conquistas</h2>
 
 ---
