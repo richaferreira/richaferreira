@@ -27,7 +27,7 @@ No momento, foco meu aprendizado em **Python (Django)** e **JavaScript (Node.js)
 
 * **Tudo no seu lugar:** Descobrindo o poder do **Docker & Docker Compose** 🐳 para que meus projetos rodem lisinho em qualquer lugar, sem aquela bagunça de *"na minha máquina funciona"*.
 
-**"O importante não é saber tudo hoje, mas ser um pouquinho melhor do que ontem."** ✨
+**"O importante não é saber tudo hoje, mas ser um pouquinho melhor do que ontem."**
 ---
 
 </div>
@@ -41,7 +41,7 @@ No momento, foco meu aprendizado em **Python (Django)** e **JavaScript (Node.js)
 
 ### 🧐 Sobre Mim
 - 🎓 Graduando em **Engenharia de Software**.
-- 🛠️ Background sólido em **Infraestrutura de TI e Redes**, unindo o mundo do hardware ao desenvolvimento de software.
+- 🛠️ Background sólido em **Infraestrutura de TI e Redes FTTH**, unindo o mundo do hardware ao desenvolvimento de software.
 - 💡 Buscando oportunidades para contribuir em projetos desafiadores como **Dev Junior ou Estagiário**.
 - 📍 Baseado em Saquarema-RJ.
 
@@ -67,9 +67,11 @@ No momento, foco meu aprendizado em **Python (Django)** e **JavaScript (Node.js)
 
 **🧰 Banco de Dados & Infra**
 <p align="left">
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" target="_blank" alt="PostgreSQL">
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cisco-110A24?style=for-the-badge&logo=cisco&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Cisco-12151A?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco" />
 </p>
 
 ---
