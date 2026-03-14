@@ -7,7 +7,7 @@
 </p>
 
 ---
-<div
+
 ### 🚀 Minha Jornada de Evolução
 ## 🧱 Construindo minha jornada, um tijolo por vez
 
