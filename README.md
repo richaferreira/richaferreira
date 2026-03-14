@@ -15,7 +15,7 @@
 
 Sempre tive um pé na tecnologia através da **infraestrutura e redes FTTH** 🌐. Eu adorava entender como os dados viajavam, mas chegou um momento em que senti vontade de fazer mais: eu queria aprender a **criar** o que estava sendo transportado.
 
-Hoje, estou mergulhando na **Engenharia de Software** 💻. Tem sido um desafio incrível trocar os cabos pelas linhas de código, e estou adorando cada erro de sintaxe que me ensina algo novo!
+Hoje, estou mergulhando na **Engenharia de Software** 💻. Tem sido um desafio incrível!
 
 ---
 
@@ -91,9 +91,6 @@ Desenvolvimento, estruturação e deploy deste site profissional para apresentar
 
 <h2 align="left">📊 Performance & Conquistas</h2>
 
-<p align="center">
-  <img src="https://github-profile-achievements-badge.vercel.app/?username=richaferreira&theme=dracula&compact=true" alt="Meus Achievements" />
-</p>
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=richaferreira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
