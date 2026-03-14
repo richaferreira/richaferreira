@@ -79,6 +79,8 @@ No momento, foco meu aprendizado em **Python (Django)** e **JavaScript (Node.js)
 ### 📂 Projetos em Destaque
 
 * **💧 [InfraPlus](https://github.com/richaferreira/Projeto_Infraplus_V1)** - Plataforma Full Stack para gestão de problemas hídricos (Python/Flask).
+* **💻 [Portfólio Pessoal](https://github.com/richaferreira/richaferreira.github.io)**
+Desenvolvimento, estruturação e deploy deste site profissional para apresentar minha trajetória, repositórios e habilidades práticas na área de tecnologia.(HTML, CSS & GitHub Pages)
 * **⚔️ RPG System** - Sistema de combate via terminal explorando conceitos de POO.
 * **🌐 Network Lab** - Simulações de topologias de rede e serviços DHCP/VLAN (Cisco Packet Tracer).
 
