@@ -8,8 +8,8 @@
 
 ---
 
-### 🚀 Minha Jornada de Evolução
-## 🧱 Construindo minha jornada, um tijolo por vez
+### 🚀 Minha Jornada de Evolução.
+## 🧱 Construindo minha jornada, um tijolo por vez.
 
 > **"A curiosidade é o que me move, o código é o que me transforma."** 🌊
 
