@@ -3,6 +3,8 @@ name: generate animation
 on:
   schedule:
     - cron: "0 */24 * * *" 
+  
+  # Permite rodar manualmente na aba Actions
   workflow_dispatch:
   push:
     branches:
@@ -16,6 +18,7 @@ jobs:
     timeout-minutes: 5
     
     steps:
+      # Gera a animação da cobrinha a partir das suas contribuições
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -31,3 +34,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
