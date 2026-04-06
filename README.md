@@ -100,6 +100,11 @@ Desenvolvimento, estruturação e deploy deste site profissional para apresentar
   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=richaferreira&layout=compact&langs_count=7&theme=dracula" alt="Top Langs" />
 </p>
 
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=synthwave&hide_border=true" alt="Estatísticas de Streak" />
+</div>
+
 ---
 <br>
 
