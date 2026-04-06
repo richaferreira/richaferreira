@@ -78,26 +78,19 @@ No momento, foco meu aprendizado em **Python (Django)** e **JavaScript (Node.js)
 
 ### 📂 Projetos em Destaque
 
-* **💧 [InfraPlus](https://github.com/richaferreira/Projeto_Infraplus_V1)** - Plataforma Full Stack para gestão de problemas hídricos (Python/Flask).
+* **💧 [InfraPlus](https://github.com/richaferreira/Projeto_Infraplus_V1)** - Plataforma Full Stack para gestão de problemas hídricos. Desenvolvido com **Python/Flask**, focando em impacto social e organização de dados.
+* **⚔️ RPG System** - Aplicação de conceitos avançados de **POO (Programação Orientada a Objetos)** e lógica de jogos via terminal.
+* **🌐 Network Lab** - Simulações complexas de topologias de rede e serviços DHCP/VLAN no **Cisco Packet Tracer**.
 
-* **💻 [Portfólio Pessoal](https://github.com/richaferreira/richaferreira.github.io)**
-Desenvolvimento, estruturação e deploy deste site profissional para apresentar minha trajetória, repositórios e habilidades práticas na área de tecnologia.(HTML, CSS & GitHub Pages)
-
-* **⚔️ RPG System** - Sistema de combate via terminal explorando conceitos de POO.
-
-* **🌐 Network Lab** - Simulações de topologias de rede e serviços DHCP/VLAN (Cisco Packet Tracer).
-
----
-<br>
-
-<h2 align="left">📊 Performance & Conquistas</h2>
-
----
+### 📊 Estatísticas e Atividade
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=richaferreira&show_icons=true&theme=tokyonight&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&hide_border=true" alt="Estatísticas do GitHub" />
+  
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richaferreira&layout=compact&theme=tokyonight&title_color=00bfbf&text_color=c9d1d9&hide_border=true&langs_count=6" alt="Linguagens mais usadas" />
+</div>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=richaferreira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=richaferreira&layout=compact&langs_count=7&theme=dracula" alt="Top Langs" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=richaferreira&theme=tokyonight&ring=00bfbf&fire=00bfbf&stroke=00bfbf&hide_border=true" alt="GitHub Streak" />
 </p>
 
 
@@ -110,28 +103,22 @@ Desenvolvimento, estruturação e deploy deste site profissional para apresentar
 
 
 ### 📫 Vamos conectar?
-<div align="center">  
+<p align="center">
   <a href="https://www.linkedin.com/in/richardson-ferreira-464571264" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://www.instagram.com/richaferreira" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
   <a href="mailto:richardsonferreira1995@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-</div>
+</p>
 
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/richaferreira/richaferreira/output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="https://github-readme-snake.herokuapp.com/github-contribution-grid-snake.svg?palette=github-dark&color_snake=%2300bfbf&color_dots=%23161b22%2C%230e4429%2C%23006d32%2C%2326a641%2C%2339d353" alt="snake" />
 </div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=richaferreiraS&color=dc143c&style=flat-square&label=Visualizações" alt="Visualizações">
-</p>
-
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer&reversal=true"/>
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
