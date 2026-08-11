@@ -27,7 +27,7 @@ Trago mais de 7 anos de experiência prática em **infraestrutura, redes, hardwa
 
 ### 🧐 Sobre Mim
 
-- 🎓 Graduando em **Engenharia de Software** — Universidade de Vassouras (5º período)
+- 🎓 Graduando em **Engenharia de Software** — Universidade de Vassouras (6º período)
 - 🛠️ Background sólido em **Infraestrutura de TI, Redes FTTH e Hardware**
 - ⚡ Experiência como **Eletricista Residencial** e **Técnico em Montagem de Computadores**
 - 💡 Buscando minha primeira oportunidade como **Estagiário em Desenvolvimento de Software**
@@ -102,7 +102,7 @@ Trago mais de 7 anos de experiência prática em **infraestrutura, redes, hardwa
 ### 📫 Vamos conectar?
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/richardson-ferreira-464571264" target="_blank">
+  <a href="https://www.linkedin.com/in/richardson-ferreira" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://wa.me/5522999273766" target="_blank">
