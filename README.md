@@ -89,7 +89,7 @@ Trago mais de 7 anos de experiência prática em **infraestrutura, redes, hardwa
 <h2 align="center">📊 Performance & Conquistas</h2>
 
 <p align="center">
-  <img height="100em" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" />
+  <img height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" />
 </p>
 
 <p align="center">
