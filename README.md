@@ -89,8 +89,12 @@ Trago mais de 7 anos de experiência prática em **infraestrutura, redes, hardwa
 <h2 align="center">📊 Performance & Conquistas</h2>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=richaferreira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=richaferreira&layout=compact&langs_count=7&theme=dracula" alt="Top Langs" />
+  <img height="100em" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" />
+</p>
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats-two-eta-22.vercel.app/api?username=richaferreira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats-two-eta-22.vercel.app/api/top-langs/?username=richaferreira&layout=compact&langs_count=7&theme=dracula&cache_seconds=1800" alt="Top Langs" />
 </p>
 
 <div align="center">
