@@ -79,11 +79,13 @@ Trago mais de 7 anos de experiência prática em **infraestrutura, redes, hardwa
 
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
+| 🛡️ **[Safe Student](https://github.com/richaferreira/Safe_Student)** | Aplicação Web para monitoramento e segurança escolar, com suporte inteligente | Node.js, |
 | 📍 **[OndeTem?](https://github.com/richaferreira/ondetem)** | PWA de agendamento de serviços estéticos com mapa de proximidade, pagamento online e chat com IA | Node.js, Express, Bootstrap 5, Leaflet, Gemini |
 | 💧 **[InfraPlus](https://github.com/richaferreira/Projeto_Infraplus_V1)** | Plataforma de utilidade pública para monitoramento e denúncia de problemas hídricos | Python, Flask, Full Stack |
 | 🔥 **[Sistema IoT](https://github.com/richaferreira/Projeto_IoT)** | Sistema integrado de alarme de incêndio e monitoramento de temperatura com sensores físicos | Arduino, C/C++, Componentes Elétricos |
 | 💻 **[Portfólio](https://github.com/richaferreira/richaferreira.github.io)** | Site profissional para apresentar trajetória e habilidades | HTML, CSS, GitHub Pages |
 
+---
 ---
 
 <h2 align="center">📊 Performance & Conquistas</h2>
