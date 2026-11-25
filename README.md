@@ -12,11 +12,9 @@
 
 > **"A curiosidade é o que me move, o código é o que me transforma."**
 
-Comecei na tecnologia pela **infraestrutura e redes FTTH** 🌐 — entendia como os dados viajavam, mas queria aprender a **criar** o que estava sendo transportado. Hoje, estou cursando **Engenharia de Software** 💻 e vivendo essa transição com entusiasmo.
-
-Meu foco atual está em **Python (Django/Flask)** e **JavaScript (Node.js/Express)** 🐍, enquanto descubro o poder do **PostgreSQL** 🐘, **MongoDB** 🍃 e **Docker Compose** 🐳 para colocar tudo no ar de forma profissional.
-
-Trago mais de 7 anos de experiência prática em **infraestrutura, redes, hardware e atendimento ao público** — competências que ampliaram minha visão para resolver problemas reais com tecnologia.
+* 💻 Estudante de **Engenharia de Software** em transição para o **desenvolvimento**.
+* 🛠️ **+7 anos de bagagem prática** em infraestrutura, redes FTTH, hardware e suporte.
+* 🎯 Foco em construir **soluções práticas** que resolvem problemas reais.
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Aprendendo-00bfbf?style=for-the-badge&logoColor=white" />
